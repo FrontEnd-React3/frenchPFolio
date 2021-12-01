@@ -1,9 +1,9 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
-import ButtonsBottom from '../components/ButtonsBottom';
-import Logo from '../components/Logo';
-import Project from '../components/Project';
-import Mouse from '../components/Mouse';
+import Navigation from '../style/components/Navigation';
+import ButtonsBottom from '../style/components/ButtonsBottom';
+import Logo from '../style/components/Logo';
+import Project from '../style/components/Project';
+import Mouse from '../style/components/Mouse';
 
 export const Project1 = () => {
   return (

@@ -1,11 +1,11 @@
 import React from "react";
-import Navigation from "../components/Navigation";
-import ButtonsBottom from "../components/ButtonsBottom";
-import ContactForm from "../components/ContactForm";
-import SocialNetwork from "../components/SocialNetwork";
-import Logo from "../components/Logo";
+import Navigation from "../style/components/Navigation";
+import ButtonsBottom from "../style/components/ButtonsBottom";
+import ContactForm from "../style/components/ContactForm";
+import SocialNetwork from "../style/components/SocialNetwork";
+import Logo from "../style/components/Logo";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import Mouse from "../components/Mouse";
+import Mouse from "../style/components/Mouse";
 import { motion } from "framer-motion";
 
 const Contact = () => {

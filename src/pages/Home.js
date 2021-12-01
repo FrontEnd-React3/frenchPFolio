@@ -1,9 +1,9 @@
 import React from "react";
-import Navigation from "../components/Navigation";
-import SocialNetwork from "../components/SocialNetwork";
-import ButtonsBottom from "../components/ButtonsBottom";
-import DynamicText from "../components/DynamicText";
-import Mouse from "../components/Mouse";
+import Navigation from "../style/components/Navigation";
+import SocialNetwork from "../style/components/SocialNetwork";
+import ButtonsBottom from "../style/components/ButtonsBottom";
+import DynamicText from "../style/components/DynamicText";
+import Mouse from "../style/components/Mouse";
 import { motion } from "framer-motion";
 
 const Home = () => {
@@ -39,12 +39,12 @@ const Home = () => {
         <SocialNetwork />
         <div className="home-main">
           <div className="main-content">
-            {/* <motion.h1 drag onDragEnd   dragConstraints={{ left: -250, right: 950, top: -200, bottom: 250 }}>
+            <motion.h1 drag onDragEnd   dragConstraints={{ left: -250, right: 950, top: -200, bottom: 250 }}>
               FS AGENCY
             </motion.h1>
             <motion.h2 drag onDragEnd dragConstraints={{ left: -250, right: 1250, top: -200, bottom: 250 }}>
               <DynamicText />
-            </motion.h2> */}
+            </motion.h2>
           </div>
         </div>
         <ButtonsBottom right={"/projet-1"} />
